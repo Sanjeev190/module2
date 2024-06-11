@@ -1,0 +1,58 @@
+
+*{background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0
+}
+.head{display: inline-block;
+width:100%;padding: 10px;margin: auto;
+border: 120px;
+background-color:black;}
+#name{display:inline-block;font-size: 25px;}
+#first{color:yellow;}
+
+.head div{display: inline-block;
+padding-top:10px;
+
+}
+.head div ul{display: inline-block;
+list-style-type: none;
+margin-left:500px ;}
+.head div ul li{display: flex;
+    display: inline-block;
+    margin-left: 40px;
+    /* background-color: yellow; /* Background color on hover */
+       /* filter: brightness(1.2); /* Increase brightness on hover */
+        /*color: darkblue; /* Text */
+
+
+}
+
+.Skills{margin-top: 30px;}
+.Skills ul li{margin-left: 15px;}
+.Projects{margin-top: 30px;}
+.Experience{margin-top: 30px;}
+.Experience ul li {margin-left: 15px;}
+.footer {margin-top: 25px;}
+/*{background-color: black;
+color: white;
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+#first{color:yellow;}
+.head{display:inline-block;width: 100%;}
+    .head-div{ display: inline block; mar
+    
+        background-color: grey;(0,100%)}
+.head nav{align-items:right;}
+   
+.head {display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    border: 120px;}
+Print*/
