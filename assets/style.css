@@ -1,0 +1,159 @@
+*{
+    padding:0px;
+    margin:0
+}
+body{
+    min-height: 100vh;
+}
+/* this part will deal with navigation link*/
+.head ul{
+    display:flex;
+    flex-direction: row;
+     gap: 50px; 
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+background-color:white;
+box-shadow: 3px 3px 5px;
+width: 100%;
+}
+
+
+nav li {
+    padding:5px; 
+    padding-top: 15px;
+    color:black;
+    height: 55px;
+}
+.head a {display: flex;
+    text-decoration: none;
+    height:100%;
+    color: black;
+    font-size: larger;
+}
+ #name{
+    font-size: larger;
+   margin-right: auto;
+}
+#first{
+    color: blueviolet;
+    font-weight: 600 ;
+}
+ @media (max-width: 480px) { 
+    .head ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    
+    nav li {
+        padding-top: 10px;
+        padding: 8px 0;
+    }
+    nav li a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+        .head a{
+        font-size:medium;
+}
+}
+
+
+/*  *
+  .head{display:flex; flex-wrap: wrap;justify-content: center; *
+    padding:10px; box-sizing:border-box; 
+ }
+
+.head h1{margin:0;flex-basis: 100%;
+}
+.head ul{
+    justify-content:right;
+   
+   padding: 30px;
+    box-sizing: border-box;
+}
+#name{display:inline-block;font-size: 25px;}
+#first{color:yellow;}
+
+
+
+.head div ul{
+    display: flex;
+  justify-content: center;
+  flex-wrap 
+    padding:0;
+list-style-type: none;
+margin-left: 1000px ;
+}
+/* this part was debugged to fix nav bar */
+/* .head div ul li{ */
+    /* display: inline-block; *
+     margin:0 10px; 
+    }
+    
+ @media screen and (max-width:768px){
+    .head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .head #name{
+        font-size: 20px;
+    }
+    .head div ul li{
+   margin: 5px;
+}
+.head div ul{
+      padding: 10px;
+ justify-content: center;
+ width: 100%;
+ margin-left: 500px;
+
+  }
+    }
+    
+   
+
+
+/*this part indicate the hovering effect*/
+.head li a:hover {
+    color:lightblue; cursor: grab;
+}
+
+/* the upper section before this is all for head section*/
+.images img{  height: 300px;width:auto;
+    mar;
+   }
+.portfolio{margin-top: 30px;
+float:right}
+
+.Skills{margin-top: 30px;}
+.Skills ul li{margin-left: 15px;}
+.Projects{margin-top: 30px;}
+.Experience{margin-top: 30px;}
+.Experience ul li {margin-left: 15px;}
+.contact{margin-top: 30px}
+.footer {margin-top: 25px;}
+/*{background-color: black;
+color: white;
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+#first{color:yellow;}
+.head{display:inline-block;width: 100%;}
+    .head-div{ display: inline block; mar
+    
+        background-color: grey;(0,100%)}
+.head nav{align-items:right;}
+   
+.head {display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    border: 120px;}
+Print*/
